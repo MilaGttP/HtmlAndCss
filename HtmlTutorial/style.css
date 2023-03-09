@@ -22,9 +22,6 @@ p {
 .bold {
     font-weight: bold;
 }
-.italic {
-    font-style: italic;
-}
 code {
     background-color: #dedede;
     font-size: 16px;
