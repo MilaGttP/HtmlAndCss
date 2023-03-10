@@ -1,0 +1,20 @@
+body {
+    background-color: #cecece;
+}
+ol {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: #e990a9;
+    margin: 15px;
+}
+li {
+    background-color: #d86284;
+    padding: 8px 15px 8px 20px;
+    margin: 0px 25px 10px 25px;
+}
+span {
+    background-color: #892d35;
+    padding: 8px 22px 8px 22px;
+    margin: 10px 10px 10px -20px;
+}
