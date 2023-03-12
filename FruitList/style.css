@@ -7,14 +7,18 @@ ol {
     color: white;
     background-color: #e990a9;
     margin: 15px;
+    padding: 15px;
 }
 li {
     background-color: #d86284;
-    padding: 8px 15px 8px 20px;
-    margin: 0px 25px 10px 25px;
+    padding: 8px 15px;
+    margin: 12px 10px 10px 30px;
+}
+li::marker {
+    background-color: #d86284;
 }
 span {
     background-color: #892d35;
     padding: 8px 22px 8px 22px;
-    margin: 10px 10px 10px -20px;
+    margin: 10px 10px 10px -14px;
 }
