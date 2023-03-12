@@ -1,0 +1,21 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: #e0e0e0;
+}
+li {
+    list-style-image: url(icons/unchecked_16.png);
+    background-color: #a8e2f7;
+}
+.d-blue {
+    background-color: #96d8f0;
+}
+.checked {
+    list-style-image: url(icons/checked_16.png);
+    background-color: #cecece;
+    text-decoration: line-through;
+}
+span {
+    color: rgb(194, 1, 1);
+}
