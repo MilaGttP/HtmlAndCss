@@ -12,13 +12,11 @@ ol {
 li {
     background-color: #d86284;
     padding: 8px 15px;
-    margin: 12px 10px 10px 30px;
-}
-li::marker {
-    background-color: #d86284;
+    margin: 10px;
+    list-style-position: inside;
 }
 span {
     background-color: #892d35;
     padding: 8px 22px 8px 22px;
-    margin: 10px 10px 10px -14px;
+    margin-left: 8px;
 }
