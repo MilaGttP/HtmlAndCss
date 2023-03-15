@@ -12,6 +12,8 @@ li {
     list-style-image: url(icons/unchecked_16.png);
     background-color: #a8e2f7;
     padding: 12px 20px;
+    list-style-position: inside;
+    color: #c20101;
 }
 .d-blue {
     background-color: #96d8f0;
@@ -19,9 +21,11 @@ li {
 .checked {
     list-style-image: url(icons/checked_16.png);
     background-color: #cecece;
-    text-decoration: line-through;
 }
 span {
-    color: #c20101;
-    text-decoration: none;
+    color: black;
+}
+.linethrough {
+    color: black;
+    text-decoration: line-through;
 }
