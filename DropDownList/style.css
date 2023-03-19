@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list {
+    background-color: #a1a1a1;
+    transition-duration: 0.5s;
+    color: #faf3f3;
+    overflow: hidden;
+    left: 0px;
+    top: 0px;
+    padding: 25px 3px;
+    height: 100%;
+    width: 80px;
+    transition-duration: 1s;
+    position: fixed;
+}
+h3 {
+    text-align: center;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+.item span {
+    display: none;
+}
+.list:hover .item span {
+    display: inline;
+}
+.item:hover {
+    background-color: #8c8c8c;
+}
+.list:hover {
+    width: 180px;
+}
+.content {
+    text-align: left;
+    padding: 20px 30px 20px 120px;
+}
