@@ -17,6 +17,10 @@
     transition-duration: 1s;
     position: fixed;
 }
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
 h3 {
     text-align: center;
 }
