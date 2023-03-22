@@ -33,4 +33,5 @@ p {
 }
 .container:hover .photo {
     transform: scale(1.2);
+    overflow: hidden;
 }
