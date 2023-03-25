@@ -2,4 +2,56 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.details {
+    background-color: #dc6e00;
+    padding: 10px;
+    color: white;
+    width: 600px;
+    position: relative;
+    top: 75px;
+    left: 40px;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+.container {
+    margin-left: 80px;
+    background-color: #baf4f5;
+    width: 900px;
+    border-radius: 10px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.text {
+    padding-left: 50px;
+}
+label {
+    display: block;
+    margin: 15px 0px 6px 0px;
+    color: rgb(78, 78, 78);
+}
+input {
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 15px 20px;
+    font-size: larger;
+    background-color: #caf4f5;
+    width: 500px;
+}
+.item {
+    display: flex;
+}
+.item div {
+    margin-left: 5px;
+}
+.item input {
+    width: 162px;
+}
+img {
+    width: 300px;
 }
