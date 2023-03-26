@@ -1,0 +1,261 @@
+/* Roboto Open-Sans Montserrat Lato Poppins Oswald Raleway Ubuntu Playfair Lora  */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Ubuntu:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+img,
+span,
+input {
+    display: block;
+}
+
+.first_screen {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg_color {
+    background-color: rgba(0, 0, 0, 0.15);
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+h2 {
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #1f1f1f;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 300px;
+}
+
+h1 {
+    font-size: 150px;
+    color: rgb(71, 123, 71);
+}
+
+.hero span {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.second_screen {
+    padding: 50px 0;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_text,
+.about_image {
+    width: 550px;
+}
+
+.about_text {
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.about_text span {
+    text-transform: none;
+}
+
+.about_text h3 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.label span {
+    margin: 0 10px;
+}
+
+.line {
+    width: 100px;
+    height: 1px;
+    background-color: black;
+}
+
+.about_image {
+    position: relative;
+}
+
+.orange {
+    width: 200px;
+}
+
+.grape {
+    width: 150px;
+    position: absolute;
+    top: -20px;
+    left: 100px;
+}
+
+.fifth_section {
+    padding: 100px 0;
+    background-image: url(img/rain.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.reservation {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.reservation h4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    width: 200px;
+    border-bottom: 1px solid #505050;
+    color: #505050;
+    margin: 0 auto;
+}
+.reservation h3 {
+    text-transform: uppercase;
+}
+.sixth_screen {
+    padding: 100px 0;
+}
+.menu_block {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    width: 600px;
+    padding: 100px 0;
+    background-image: url(img/collage.png);
+    background-size: cover;
+}
+.b_block {
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 25px 0;
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+.b_block h4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    width: 200px;
+    border-bottom: 1px solid #ffffff;
+    margin: 0 auto;
+}
+.b_block h3 {
+    text-transform: uppercase;
+}
+.dishes {
+    width: 600px;
+    text-align: center;
+}
+.dishes h4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    width: 200px;
+    border-bottom: 1px solid #505050;
+    color: #505050;
+    margin: 0 auto;
+}
+.dishes h3 {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.dishes p {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+.dishes a {
+    display: flex;
+    color: black;
+    border: 2px solid black;
+    padding: 15px 0;
+    width: 220px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.seventh_screen {
+    padding: 100px 0;
+    background-image: url(img/map.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.map_block {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.map_block h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1.5px solid #505050;
+}
+.map_block p {
+    margin: 15px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.top_btn {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
