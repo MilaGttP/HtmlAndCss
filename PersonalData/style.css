@@ -2,4 +2,37 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form {
+    width: 1100px;
+    margin: 150px auto;
+    box-shadow: 0 0 8px #5b5b5b;
+    padding: 40px 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+}
+h2 {
+    font-weight: 500;
+}
+.item {
+    display: flex;
+    margin-top: 25px;
+}
+input, select {
+    border: none;
+    border-bottom: 1px solid #ababab;
+    padding: 5px 15px;
+    margin-left: 12px;
+    background-color: transparent;
+}
+.width {
+    width: 430px;
+}
+input::placeholder {
+    color: #999999;
+}
+.offer {
+    margin-top: 20px;
 }
