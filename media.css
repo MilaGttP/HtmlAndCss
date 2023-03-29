@@ -1,0 +1,116 @@
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .hero img {
+        width: 440px;
+    }
+    .second_screen img {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    nav ul {
+        width: 400px;
+    }
+    nav a {
+        text-align: center;
+    }
+    .second_screen img {
+        width: 140px;
+    }
+    .catherine, .woody, .frank {
+        padding: 15px 40px;
+    }
+    .card h3 {
+        font-size: 22px;
+    }
+    .card a {
+        font-size: 18px;
+    }
+    footer img {
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .flex {
+        justify-content: space-evenly;
+    }
+    nav ul {
+        width: 320px;
+    }
+    nav a {
+        font-size: 16px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .offer p {
+        font-size: 16px;
+    }
+    .second_screen img {
+        width: 110px;
+    }
+    .catherine, .woody, .frank {
+        padding: 15px 30px;
+    }
+    .card h3 {
+        font-size: 22px;
+    }
+    .card a {
+        font-size: 18px;
+    }
+    footer img {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 25px;
+    }
+    .flex {
+        justify-content: space-evenly;
+    }
+    nav ul {
+        width: 245px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    
+    .offer p {
+        font-size: 16px;
+    }
+    
+    .second_screen img {
+        width: 75px;
+    }
+    
+    .catherine, .woody, .frank {
+        padding: 8px 22px;
+    }
+    
+    .card h3 {
+        font-size: 22px;
+    }
+    
+    .card a {
+        font-size: 18px;
+    }
+    
+    footer img {
+        width: 140px;
+    }
+}

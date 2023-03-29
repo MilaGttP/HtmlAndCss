@@ -1,5 +1,5 @@
-# Html & Css
+# Домашня робота з теми "Верстка повної сторінки з Figma"
 
-#У цьому сховищі присутні мої домашні роботи з мови HTML та CSS
+#Завдання
 
-#This repository contains my homework in HTML and CSS language 
+Зверстати сторінку за Figma - шаблоном та зробити її адаптивною. Шаблон: https://www.figma.com/file/m6SOBAcqPVFnNUSr6CVHH9/Untitled?node-id=0%3A1&t=7VE6tMNI6DCOdSUh-1

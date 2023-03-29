@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond:wght@400;500;700;800&display=swap');
+
+:root {
+    --w_color: #fff;
+    --o_color: #E17F3C;
+    --bg_color: #F6F6F6;
+    --upper: uppercase;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+}
+
+span, a, img {
+    display: block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.first_screen {
+    background: linear-gradient(104.04deg, #453023 0%, #020202 100%);
+    height: 100vh;
+    padding-top: 40px;
+}
+.flex_align {
+    align-items: center;
+}
+.logo h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--o_color);
+}
+.logo span {
+    font-size: 18px;
+    color: var(--w_color);
+}
+nav ul {
+    width: 500px;
+    list-style: none;
+}
+nav a {
+    color: var(--w_color);
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s ease;
+}
+nav a:hover {
+    border-bottom: 2px solid var(--o_color);
+}
+.offer {
+    width: 435px;
+    color: var(--w_color);
+}
+h1 {
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 105.5%;
+}
+.offer p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 119.5%;
+    margin: 20px 0;
+}
+.offer a {
+    width: 270px;
+    border-radius: 100px;
+    background-color: var(--o_color);
+    color: var(--w_color);
+    padding: 18px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.second_screen {
+    background-color: var(--bg_color);
+    padding: 60px 0;
+}
+.second_screen h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 119.5%;
+    width: 380px;
+    margin: 0 auto;
+    margin-bottom: 33px;
+}
+.card {
+    background-color: var(--w_color);
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+.card:hover {
+    box-shadow: 4px 4px 10px #505050;
+}
+.catherine {
+    padding: 34px 54px 20px 70px;
+}
+.woody {
+    padding: 34px 84px 12px 76px;
+}
+.frank {
+    padding: 41px 50px 12px 52px;
+}
+.card h3 {
+    text-align: center;
+    margin: 0 auto;
+    color: var(--o_color);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 119.5%;
+}
+.card a {
+    border-radius: 100px;
+    border: 1px solid var(--o_color);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 119.5%;
+    text-align: center;
+    color: black;
+    padding: 15px 0;
+    margin: 22px 0;
+}
+footer {
+    background: linear-gradient(104.04deg, #453023 0%, #020202 100%);
+}
+footer h2 {
+    color: var(--w_color);
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 101%;
+    margin-top: 48px;
+}
+footer span {
+    color: var(--o_color);
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 101%;
+    margin-top: 25px;
+}
+.footer_cat {
+    margin-top: 39px;
+    margin-bottom: 47px;
+}
