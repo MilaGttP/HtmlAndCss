@@ -2,4 +2,4 @@
 
 #Завдання
 
-Зверстати сторінку за шаблоном з Figma: https://www.figma.com/file/DvHivwoo1NVDXTjvwdWL5w/Untitled?t=np62iH8Ktr7Q77Zu-1
+Зверстати сторінку туристичної агенції за шаблоном з Figma: https://www.figma.com/file/DvHivwoo1NVDXTjvwdWL5w/Untitled?t=np62iH8Ktr7Q77Zu-1
