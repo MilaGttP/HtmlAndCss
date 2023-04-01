@@ -1,5 +1,5 @@
-# Html & Css
+# Практичне завдання з теми "Вестка сторінки з Figma"
 
-#У цьому сховищі присутні мої домашні роботи з мови HTML та CSS
+#Завдання
 
-#This repository contains my homework in HTML and CSS language 
+Зверстати сторінку за шаблоном з Figma: https://www.figma.com/file/DvHivwoo1NVDXTjvwdWL5w/Untitled?t=np62iH8Ktr7Q77Zu-1
