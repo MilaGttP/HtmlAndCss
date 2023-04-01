@@ -1,5 +1,5 @@
-# Html & Css
+# Домашня робота з теми "Практика розміщення елементів div"
 
-#У цьому сховищі присутні мої домашні роботи з мови HTML та CSS
+#Завдання
 
-#This repository contains my homework in HTML and CSS language 
+Розмістити усі елементи згідно з шаблоном
