@@ -1,0 +1,17 @@
+
+.navbar-brand img {
+    width: 60px;
+}
+.fon {
+    background-color: rgb(212, 248, 252);
+}
+.active {
+    font-weight: bold;
+}
+.carousel-item img {
+    height: 800px;
+    object-fit: cover;
+}
+.fon_submit {
+    background-color: rgb(212, 248, 252);
+}
