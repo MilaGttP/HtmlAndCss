@@ -227,4 +227,123 @@ nav ul {
     color: #db810b;
     border: 2px solid #db810b;
     text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.test_content a:hover {
+    color: #f1f1f1;
+    background-color: #db810b;
+}
+
+
+.events {
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image_events {
+    width: 300px;
+    text-align: center;
+}
+.image_events img {
+    width: 90%;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    padding: 5px;
+}
+.text_events {
+    width: 300px;
+    text-align: center;
+}
+.text_events h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.line {
+    width: 120px;
+    height: 1px;
+    background-color: #db810b;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.text_events h3 {
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+.text_events p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-style: italic;
+}
+.text_events a {
+    display: block;
+    width: 150px;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid #db810b;
+    padding: 10px 0;
+    color: #db810b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    border-radius: 8px;
+}
+.text_events a:hover {
+    background-color: #db810b;
+    color: #e3e3e3;
+}
+
+hr {
+    width: 1000px;
+    margin: 0 auto;
+    border: 0;
+    height: 1px;
+    background-color: #000;
+    background-image: -webkit-linear-gradient(left, #7e7e7e, #000, #7e7e7e);
+    background-image: -moz-linear-gradient(left, #7e7e7e, #000, #7e7e7e);
+    background-image: -ms-linear-gradient(left, #7e7e7e, #000, #7e7e7e);
+    background-image: -o-linear-gradient(left, #7e7e7e, #000, #7e7e7e);
+}
+
+.jobs {
+    width: 1000px;
+    margin: 50px auto;
+    
+}
+.header_info h2, .header_info p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.header_info h2, .header_info h4 {
+    color: rgb(41, 41, 41);
+}
+.job_card {
+    width: 900px;
+    margin: 25px auto;
+    background-color: #d8d8d8;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-radius: 10px;
+    align-items: center;
+}
+.text_job h2 {
+    margin-bottom: 10px;
+}
+.text_job span {
+    display: inline;
+    color: #7e7e7e;
+    margin-right: 25px;
+}
+.jobs a {
+    background-color: #db810b;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
