@@ -1,5 +1,5 @@
-# Html & Css
+# Домашнє завдання з теми "Практика: To - Do list"
 
-#У цьому сховищі присутні мої домашні роботи з мови HTML та CSS
+#Зверстати сторінку за шаблоном
 
-#This repository contains my homework in HTML and CSS language 
+
