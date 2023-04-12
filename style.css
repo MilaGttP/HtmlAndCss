@@ -35,6 +35,10 @@ nav ul {
     color: #db810b;
     text-decoration: underline;
 }
+.menu_btn {
+    width: 48px;
+    display: none;
+}
 .content {
     width: 1200px;
     margin: 50px auto;
