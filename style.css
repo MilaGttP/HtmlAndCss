@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: 40px auto 0px;
+    background-color: #0fa0a0;
+}
+header {
+    background-color: #0d8787;
+    padding: 15px 25px;
+}
+header h2 {
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.task-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.to-do, .in-progress, .test {
+    background-color: #d8d8d8;
+    border-radius: 6px;
+    margin: 10px;
+}
+h3 {
+    margin: 15px 25px;
+}
+.block-item {
+    width: 325px;
+    background-color: #ebebeb;
+    border-radius: 6px;
+    padding: 10px 25px;
+    margin: 15px;
+}
+.block-item p {
+    margin-bottom: 20px;
+}
+.block-item img {
+    width: 28px;
+    object-fit: cover;
+    margin-right: 8px;
+}
+.items {
+    display: flex;
+    justify-content: space-between;
+}
