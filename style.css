@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-color: #EBEBEB;
+}
+p {
+    font-size: 17px;
+}
+a {
+    display: block;
+    text-decoration: none;
+    background: #E49F1F;
+    box-shadow: 0px 4px 4px rgba(228, 159, 31, 0.5);
+    border-radius: 15px;
+    color: #F7F7F7;
+    margin: 0 auto;
+    padding: 15px 50px;
+    font-weight: bold;
+}
+.container {
+    width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about {
+    width: 33%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    background-color: #F7F7F7;
+}
+.me {
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+    padding: 30px 65px;
+}
+.me * {
+    margin-top: 15px;
+}
+.me img {
+    width: 150px;
+    object-fit: cover;  
+}
+.skills {
+    padding: 10px 30px 50px 35px;
+    background-color: #F7F7F7;
+    border-radius: 0px 0px 20px 20px;
+}
+.skills * {
+    margin-top: 30px;
+}
+.skills h3 {
+    color: #E49F1F;
+    margin-bottom: 10px;
+}
+.skills-item * {
+    margin-top: 5px;
+}
+.contacts {
+    display: flex;
+    align-items: center;
+}
+.contacts img {
+    margin-right: 10px;
+}
+.skills-item ul, .skills-item ol {
+    line-height: 24px;
+    margin-left: 24px;
+}
+.skills-item-button {
+    text-align: center;
+}
+.experience {   
+    width: 63%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+}
+.profile {
+    background-color: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+    padding: 30px 40px 10px 30px;
+}
+.profile * {
+    margin-bottom: 15px;
+}
+.profile hr {   
+    border: 3px solid #E49F1F;
+    width: 50px;
+}
+.projects-education {
+    background-color: #F7F7F7;
+    border-radius: 0px 0px 20px 20px;
+    padding: 0px 40px 40px 30px;
+}
+.projects-education h2 {
+    padding-top: 30px;
+}
+.project-item * {
+    margin-top: 15px;
+}
+.project-item span {
+    display: block;
+    color: #838383;
+}
+.project-item a {
+    width: 150px;
+    margin: 30px 0px 0px 0px;
+    background: #F7F7F7;
+    color: #E49F1F;
+    border: 1px solid #E49F1F;
+    transition: 0.5s ease-in-out;
+}
+.project-item a:hover {
+    background-color: #E49F1F;
+    color: #F7F7F7;
+}
+.proj-name {
+    display: flex;
+}
+.proj-name span {
+    margin-left: 25px;
+    color: #E49F1F;
+    font-weight: 600;
+}
