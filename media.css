@@ -72,7 +72,13 @@
 }
 
 @media screen and (max-width: 768px) {
-
+    .hamburger-menu {
+        display: block;
+    }
+    .main-menu {
+        display: none;
+    }
+    
 }
 
 @media screen and (max-width: 576px) {
