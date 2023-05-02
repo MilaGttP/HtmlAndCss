@@ -108,32 +108,32 @@ header .content {
 #menu_toggle {
     opacity: 0;
 }
-#menu_toggle:checked + .menu_btn > span {
+#menu_toggle:checked+.menu_btn>span {
     transform: rotate(45deg);
 }
-#menu_toggle:checked + .menu_btn > span::before {
-    top: 0;
-    transform: rotate(0deg);
-}
-#menu_toggle:checked + .menu_btn > span::after {
-    top: 0;
+#menu_toggle:checked+.menu_btn>span::before {
+    bottom: -8px;
     transform: rotate(90deg);
 }
-#menu_toggle:checked ~ .menu_box {
-    left: 0 !important;
+#menu_toggle:checked+.menu_btn>span::after {
+    bottom: 8px;
+    transform: rotate(-90deg);
+}
+#menu_toggle:checked~.menu_box {
+    right: 0 !important;
 }
 .menu_btn {
     position: fixed;
     top: 40px;
-    left: 30px;
+    right: 30px;
     width: 26px;
     height: 26px;
     cursor: pointer;
     z-index: 1;
 }
-.menu_btn > span,
-.menu_btn > span::before,
-.menu_btn > span::after {
+.menu_btn>span,
+.menu_btn>span::before,
+.menu_btn>span::after {
     display: block;
     position: absolute;
     width: 100%;
@@ -141,19 +141,19 @@ header .content {
     background-color: var(--light-gray);
     transition-duration: .25s;
 }
-.menu_btn > span::before {
+.menu_btn>span::before {
     content: '';
-    top: -8px;
+    bottom: -8px;
 }
-.menu_btn > span::after {
+.menu_btn>span::after {
     content: '';
-    top: 8px;
+    bottom: 8px;
 }
 .menu_box {
     display: block;
     position: fixed;
     top: 0;
-    left: -100%;
+    right: -100%;
     width: 300px;
     height: 100%;
     margin: 0;
