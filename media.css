@@ -1,6 +1,70 @@
 
 @media screen and (max-width: 1200px) {
-
+    header .content, 
+    .first_screen_content,
+    .second_screen,
+    .third_screen,
+    .fourth_screen,
+    .fifth_screen,
+    .sixth_screen,
+    .footer_content {
+        width: 900px;
+    }
+    nav ul {
+        width: 450px;
+    }
+    .top-img {
+        width: 350px;
+        object-fit: cover;
+    }
+    .bottom-img {
+        width: 200px;
+        object-fit: cover;
+        top: 170px;
+        left: 200px;
+    }
+    .second_screen {
+        margin-top: 100px;
+    }
+    .second_screen_items * {
+        width: 450px;
+    }
+    .third_screen {
+        margin-top: 170px;
+    }
+    .pros_item {
+        width: 210px;
+        padding: 25px 20px;
+    }
+    .fourth_screen {
+        margin-top: 130px;
+    }
+    .places_card {
+        width: 280px;
+    }
+    .place_img img {
+        width: 280px;
+        object-fit: cover;
+    }
+    .place_text h4 {
+        font-size: 22px;
+    }
+    .fifth_screen {
+        margin-top: 130px;
+    }
+    .review_text * {
+        width: 440px;
+    }
+    .what_say_img {
+        width: 420px;
+        object-fit: cover;
+    }
+    .sixth_section {
+        margin-top: 150px;
+    }
+    .sixth_section p {
+        font-size: 17px;
+    }
 }
 
 @media screen and (max-width: 992px) {
