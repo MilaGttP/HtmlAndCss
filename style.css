@@ -42,7 +42,13 @@ h3 {
     font-size: 25px;
     color: var(--green);
 }
-.first_screen_content, .second_screen, .third_screen, .fourth_screen, .fifth_screen, .sixth_screen, .footer_content {
+.first_screen_content, 
+.second_screen, 
+.third_screen, 
+.fourth_screen, 
+.fifth_screen, 
+.sixth_screen, 
+.footer_content {
     width: 1200px;
     margin: 0 auto;
 }
