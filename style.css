@@ -105,7 +105,8 @@ header a {
     border-radius: 0;
     line-height: 0;
 }
-header a:hover, footer a:hover {
+header a:hover, 
+footer a:hover {
     color: var(--light-green);
 }
 .first_screen_content {
@@ -174,7 +175,8 @@ header a:hover, footer a:hover {
     margin-bottom: 45px;
     line-height: 54px;
 }
-.fourth_screen h2, .fourth_screen h3 {
+.fourth_screen h2, 
+.fourth_screen h3 {
     text-align: center;
 }
 .places_card {
@@ -240,7 +242,8 @@ header a:hover, footer a:hover {
     text-align: center;
     margin-bottom: 40px;
 }
-.trips_content h2, .trips_content p {
+.trips_content h2, 
+.trips_content p {
     color: var(--white);
 }
 footer {
