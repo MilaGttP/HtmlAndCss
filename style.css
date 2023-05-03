@@ -160,12 +160,13 @@ header .content {
     padding: 80px 0;
     list-style: none;
     background-color: var(--white);
+    opacity: 0.85;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
     transition-duration: .25s;
 }
 .menu_item {
     display: block;
-    padding: 12px 24px;
+    padding: 28px 24px;
     color: var(--black);
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
@@ -235,6 +236,9 @@ footer a:hover {
 .third_screen {
     margin-top: 210px;
 }   
+.two-pros-items {
+    width: 588px;
+}
 .pros_item {
     box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
     padding: 40px 20px;

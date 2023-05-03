@@ -32,6 +32,9 @@
     .third_screen {
         margin-top: 170px;
     }
+    .two-pros-items {
+        width: 440px;
+    }
     .pros_item {
         width: 210px;
         padding: 25px 20px;
@@ -68,7 +71,99 @@
 }
 
 @media screen and (max-width: 992px) {
-
+    header .content,
+    .first_screen_content,
+    .second_screen,
+    .third_screen,
+    .fourth_screen,
+    .fifth_screen,
+    .sixth_screen,
+    .footer_content {
+        width: 750px;
+    }
+    .second_screen {
+        margin-top: 100px;
+        display: block;
+        width: 500px;
+    }
+    .top-img {
+        width: 450px;
+    }
+    .bottom-img {
+        width: 310px;
+    }
+    .second_screen_items * {
+        width: 500px;
+    }
+    .third_screen {
+        margin-top: 140px;
+        display: block;
+        width: 550px;
+    }
+    .third_screen * {
+        margin-bottom: 20px;
+    }
+    .two-pros-items {
+        width: 590px;
+    }
+    .pros_item {
+        width: 280px;
+        padding: 25px 20px;
+    }
+    .fourth_screen {
+        margin-top: 120px;
+    }
+    .places {
+        display: block;
+        width: 360px;
+        margin: 0 auto;
+    }
+    .places_card {
+        width: 350px;
+        margin-bottom: 30px;
+    }
+    .place_img img {
+        width: 350px;
+    }
+    .fifth_screen {
+        margin-top: 120px;
+        display: block;
+        width: 600px;
+    }
+    .review_text * {
+        width: 600px;
+        text-align: center;
+    }
+    .review_text {
+        margin-bottom: 40px;
+    }
+    .review_text a {
+        margin: 0 auto;
+        display: block;
+        width: 220px;
+    }
+    .rewiew_img {
+        width: 440px;
+        margin: 0 auto;
+    }
+    footer h2 {
+        font-size: 22px;
+    }
+    footer h4 {
+        font-size: 18px;
+    }
+    footer li a,
+    footer li {
+        font-size: 13px;
+    }
+    .social_url,
+    .social_url a {
+        display: block;
+    }
+    .social_url * {
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -78,8 +173,133 @@
     .main-menu {
         display: none;
     }
+    h3 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 34px;
+    }
+    p {
+        font-size: 17px;
+    }
+    header .content,
+    .first_screen_content,
+    .second_screen,
+    .third_screen,
+    .fourth_screen,
+    .fifth_screen,
+    .sixth_screen,
+    .footer_content {
+        width: 490px;
+    }
+    .top-img {
+        width: 400px;
+    }
+    .bottom-img {
+        width: 250px;
+    }
+    .two-pros-items {
+        width: 480px;
+    }
+    .pros_item {
+        width: 220px;
+    }
+    .fourth_screen .head {
+        width: 515px;
+    }
+    .places {
+        width: 330px;
+    }
+    .fourth_screen,
+    .fifth_screen {
+        margin-top: 80px;
+    }
+    .fifth_screen {
+        margin-top: 100px;
+        width: 440px;
+    }
+    .review_text * {
+        width: 450px;
+    }
+    .rewiew_img {
+        width: 410px;
+    }
+    .trips_content {
+        width: 450px;
+    }
+    .footer_content {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .footer_logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .footer_content div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .social_url {
+        display: flex;
+        justify-content: left;
+    }
+    .social_url * {
+        margin-right: 10px;
+    }
 }
 
 @media screen and (max-width: 576px) {
-
+    .hamburger-menu {
+        display: block;
+    }
+    .main-menu {
+        display: none;
+    }
+    header .content,
+    .first_screen_content,
+    .first_screen-items,
+    .second_screen,
+    .third_screen,
+    .fourth_screen,
+    .fifth_screen,
+    .sixth_screen,
+    .footer_content {
+        width: 400px;
+    }
+    .first_screen-items *,
+    .second_screen_items * {
+        width: 350px;
+    }
+    .first_screen_content h2 {
+        font-size: 42px;
+    }
+    .top-img {
+        width: 360px;
+    }
+    .bottom-img {
+        width: 200px;
+    }
+    .third_screen {
+        width: 250px;
+    }
+    .two-pros-items {
+        display: block;
+        width: 0;
+    }
+    .pros_item {
+        width: 250px;
+        padding: 35px 20px;
+    }
+    .fourth_screen .head {
+        width: 415px;
+    }
+    .review_text * {
+        width: 400px;
+    }
+    .rewiew_img img {
+        width: 400px;
+    }
+    .trips_content {
+        width: 400px;
+    }
 }
