@@ -390,3 +390,21 @@ footer span {
     font-family: 'Roboto';
     margin-top: 25px;
 }
+.top_btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    opacity: 0.85;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0 solid transparent;
+    background-color: var(--green);
+    color: var(--white);
+    transition: 0.5s ease-in-out;
+}
+.top_btn:hover {
+    background-color: var(--white);
+    color: var(--green);
+}
