@@ -1,0 +1,51 @@
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 900px;
+    }
+    .contacts span {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+       display: block;
+    }
+    .about {
+        margin: 15px auto;
+        width: 600px;
+    }
+    .experience {
+        margin: 15px auto;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        margin: 15px auto;
+        width: 450px;
+    }
+    .experience {
+        margin: 15px auto;
+        width: 450px;
+    }
+    .project-item p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about {
+        margin: 15px auto;
+        width: 350px;
+    }
+    .experience {
+        margin: 15px auto;
+        width: 350px;
+    }
+    .project-item p {
+        font-size: 14px;
+    }
+}
